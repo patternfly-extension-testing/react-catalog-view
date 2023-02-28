@@ -17,7 +17,8 @@
       "packagePatterns": [
         "@patternfly/*"
       ],
-      "followTag": "alpha"
+      "followTag": "alpha",
+      "groupName": "patternfly"
     }
   ],
   "includeForks": true,
