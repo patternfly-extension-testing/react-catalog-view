@@ -14,7 +14,7 @@
     },
     {
       "datasources": ["npm"],
-      "matchPackageNames": [
+      "packagePatterns": [
         "@patternfly/*"
       ],
       "followTag": "alpha"
