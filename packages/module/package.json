@@ -52,7 +52,7 @@
     "react-dom": "^16.8 || ^17 || ^18"
   },
   "devDependencies": {
-    "@patternfly/patternfly": ">4.224.2",
+    "@patternfly/patternfly": "5.0.0-alpha.21",
     "@patternfly/documentation-framework": ">1.8.0",
     "@patternfly/react-table": ">4.112.39",
     "@patternfly/react-code-editor": ">4.82.113",
