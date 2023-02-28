@@ -44,18 +44,18 @@
     "patternfly"
   ],
   "dependencies": {
-    "@patternfly/react-core": "*",
-    "@patternfly/react-styles": "*"
+    "@patternfly/react-core": "alpha",
+    "@patternfly/react-styles": "alpha"
   },
   "peerDependencies": {
     "react": "^16.8 || ^17 || ^18",
     "react-dom": "^16.8 || ^17 || ^18"
   },
   "devDependencies": {
-    "@patternfly/patternfly": "*",
-    "@patternfly/documentation-framework": "*",
-    "@patternfly/react-table": "*",
-    "@patternfly/react-code-editor": "*",
+    "@patternfly/patternfly": "alpha",
+    "@patternfly/documentation-framework": "alpha",
+    "@patternfly/react-table": "alpha",
+    "@patternfly/react-code-editor": "alpha",
     "rimraf": "^2.6.2",
     "sass": "^1.42.1",
     "shx": "^0.3.2",
