@@ -7,13 +7,13 @@
     {
       "packagePatterns": ["*"],
       "excludePackagePatterns": [
-        "@patternfly/documentation-framework"
+        "@patternfly/*"
       ],
       "enabled": false
     },
     {
       "packageNames": [
-        "@patternfly/documentation-framework"
+        "@patternfly/*"
       ]
     }
   ]
