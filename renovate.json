@@ -3,6 +3,7 @@
   "extends": [
     "config:base"
   ],
+  "enabledManagers": ["npm"],
   "packageRules": [
     {
       "packagePatterns": ["*"],
@@ -12,6 +13,7 @@
       "enabled": false
     },
     {
+      "datasources": ["npm"],
       "packageNames": [
         "@patternfly/*"
       ],
