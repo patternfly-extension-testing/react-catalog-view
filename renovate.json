@@ -18,5 +18,6 @@
       "followTag": "alpha"
     }
   ],
-  "includeForks": true
+  "includeForks": true,
+  "rangeStrategy": "bump"
 }
