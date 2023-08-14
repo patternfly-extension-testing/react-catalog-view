@@ -1,10 +1,20 @@
 module.exports = {
-  branches: [{ name: 'v4', channel: 'prerelease' }, { name: 'main', channel: 'alpha', prerelease: 'alpha' }],
+  branches: [
+    'do-not-delete',
+    { name: 'v4', channel: 'prerelease-v4', range: '4.x' },
+    { name: 'main', channel: 'prerelease', prerelease: 'prerelease' }
+  ],
   analyzeCommits: {
     preset: 'angular'
   },
   plugins: [
-    '@semantic-release/commit-analyzer',
+    [
+      '@semantic-release/commit-analyzer',
+      {
+        preset: 'angular',
+        releaseRules: [{ type: 'chore', scope: 'deps', release: 'patch' }]
+      }
+    ],
     '@semantic-release/release-notes-generator',
     '@semantic-release/github',
     '@semantic-release/npm'
