@@ -1733,10 +1733,10 @@
     puppeteer-cluster "^0.23.0"
     xmldoc "^1.1.2"
 
-"@patternfly/patternfly@^5.0.0":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@patternfly/patternfly/-/patternfly-5.0.2.tgz#f5daf2c98ccb85e6466d42fd61d39ba3c10ed532"
-  integrity sha512-PB8+MLdYVgF1hIOxGmnVsZG+YHUX3RePe5W1oMS4gS00EmSgw1cobr1Qbpy/BqqS8/R9DRN4hZ2FKDT0d5tkFQ==
+"@patternfly/patternfly@^6.0.0-prerelease.1":
+  version "6.0.0-prerelease.1"
+  resolved "https://registry.yarnpkg.com/@patternfly/patternfly/-/patternfly-6.0.0-prerelease.1.tgz#37041576dce395a592acc286d5c3913ed7ab7f83"
+  integrity sha512-iAtWvRoL5cF3T0P2OI0Gt+rdDGOb5Fc1+PPRFZgVNe9+euD5rHiIeo0dLS9WVeWRcNfJ5hWJ47nQZsdvnGFHuA==
 
 "@patternfly/react-code-editor@^5.0.0":
   version "5.0.0"
