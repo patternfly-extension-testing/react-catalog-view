@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "@patternfly/patternfly": "^5.0.0",
-    "@patternfly/documentation-framework": "^5.0.15",
+    "@patternfly/documentation-framework": "^6.0.0-alpha.20",
     "@patternfly/react-table": "^5.0.0",
     "@patternfly/react-code-editor": "^5.0.0",
     "react-monaco-editor": "0.51.0",
