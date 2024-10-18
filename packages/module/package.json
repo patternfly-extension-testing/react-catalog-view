@@ -40,8 +40,8 @@
     "patternfly"
   ],
   "dependencies": {
-    "@patternfly/react-core": "^5.0.0",
-    "@patternfly/react-styles": "^5.0.0"
+    "@patternfly/react-core": "^6.0.0-prerelease.21",
+    "@patternfly/react-styles": "^6.0.0-prerelease.6"
   },
   "peerDependencies": {
     "react": "^17 || ^18",
@@ -49,9 +49,9 @@
   },
   "devDependencies": {
     "@patternfly/patternfly": "^5.0.0",
-    "@patternfly/documentation-framework": "^5.0.15",
-    "@patternfly/react-table": "^5.0.0",
-    "@patternfly/react-code-editor": "^5.0.0",
+    "@patternfly/documentation-framework": "^6.0.0-alpha.120",
+    "@patternfly/react-table": "^6.0.0-prerelease.22",
+    "@patternfly/react-code-editor": "^6.0.0-prerelease.21",
     "react-monaco-editor": "0.51.0",
     "monaco-editor": "0.34.1",
     "rimraf": "^2.6.2",
