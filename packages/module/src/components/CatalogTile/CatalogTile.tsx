@@ -63,14 +63,24 @@ export class CatalogTile extends React.Component<CatalogTileProps> {
   private handleClick = (e: React.FormEvent<HTMLInputElement> | React.MouseEvent<Element, MouseEvent>) => {
     const { onClick, href } = this.props;
 
-    if (!href) {
-      e.preventDefault();
-    } else {
+    if ("type" in e && e.type === "click" && onClick) {
+      // It's a MouseEvent
+      const mouseEvent = e as React.MouseEvent<Element, MouseEvent>;
+      if (
+        mouseEvent.metaKey || // Cmd key (Mac)
+        mouseEvent.ctrlKey || // Ctrl key
+        mouseEvent.shiftKey // Shift key
+      ) {
+        window.open(href, '_blank');
+        return; 
+      }
+    } else if (href){
       window.open(href, '_blank');
     }
+
     if (onClick) {
       onClick(e);
-    }
+    } 
   };
 
   private renderBadges = (badges: React.ReactNode[]) => {
@@ -119,7 +129,6 @@ export class CatalogTile extends React.Component<CatalogTileProps> {
       >
         {(badges.length > 0 || iconImg || iconClass || icon || onClick || href) && (
           <CardHeader
-            actions={{ actions: badges.length > 0 && this.renderBadges(badges), hasNoOffset: true }}
             selectableActions={ (onClick || href) && {
                 selectableActionId: id + '-input',
                 onClickAction: (e) => this.handleClick(e),
@@ -129,6 +138,7 @@ export class CatalogTile extends React.Component<CatalogTileProps> {
           >
             {iconImg && <img className="catalog-tile-pf-icon" src={iconImg} alt={iconAlt} />}
             {!iconImg && (iconClass || icon) && <span className={`catalog-tile-pf-icon ${iconClass}`}>{icon}</span>}
+            {badges.length > 0 && this.renderBadges(badges)}
           </CardHeader>
         )}
         <CardTitle className="catalog-tile-pf-header">
