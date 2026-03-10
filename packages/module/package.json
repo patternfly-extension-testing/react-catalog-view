@@ -52,7 +52,7 @@
     "@octokit/rest": "^18.0.0",
     "@patternfly/documentation-framework": "6.36.4",
     "@patternfly/patternfly": "^6.5.0-prerelease.50",
-    "@patternfly/patternfly-a11y": "^4.3.1",
+    "@patternfly/patternfly-a11y": "^5.1.0",
     "@patternfly/react-code-editor": "^6.5.0-prerelease.40",
     "@patternfly/react-table": "^6.5.0-prerelease.38",
     "monaco-editor": "0.34.1",
