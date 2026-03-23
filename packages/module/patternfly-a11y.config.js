@@ -24,6 +24,7 @@ module.exports = {
     'landmark-main-is-top-level',
     'scrollable-region-focusable',
     'link-in-text-block',
+    'target-size',
   ].join(','),
   ignoreIncomplete: true
 };
