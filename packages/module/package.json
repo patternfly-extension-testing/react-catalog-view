@@ -41,8 +41,8 @@
     "patternfly"
   ],
   "dependencies": {
-    "@patternfly/react-core": "^6.5.0-prerelease.41",
-    "@patternfly/react-styles": "^6.5.0-prerelease.14"
+    "@patternfly/react-core": "^6.5.0-prerelease.71",
+    "@patternfly/react-styles": "^6.5.0-prerelease.22"
   },
   "peerDependencies": {
     "react": "^17 || ^18 || ^19",
@@ -50,11 +50,11 @@
   },
   "devDependencies": {
     "@octokit/rest": "^18.0.0",
-    "@patternfly/documentation-framework": "6.36.8",
-    "@patternfly/patternfly": "^6.5.0-prerelease.60",
+    "@patternfly/documentation-framework": "6.39.0",
+    "@patternfly/patternfly": "^6.5.0-prerelease.85",
     "@patternfly/patternfly-a11y": "^5.2.1",
-    "@patternfly/react-code-editor": "^6.5.0-prerelease.44",
-    "@patternfly/react-table": "^6.5.0-prerelease.42",
+    "@patternfly/react-code-editor": "^6.5.0-prerelease.74",
+    "@patternfly/react-table": "^6.5.0-prerelease.74",
     "monaco-editor": "0.34.1",
     "react-monaco-editor": "0.51.0",
     "rimraf": "^2.6.2",
